@@ -1,3 +1,4 @@
+import { About } from "./pages/about";
 import { Contact } from "./pages/Contact";
 import { Intro } from "./pages/Introduction";
 import { Projects } from "./pages/Projects";
@@ -7,6 +8,7 @@ export default function Home() {
     <section>
       <Intro/>
       <Projects projects={[]}/>
+      <About/>
       <Contact/>
     </section>
   )
