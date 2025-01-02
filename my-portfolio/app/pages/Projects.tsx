@@ -4,7 +4,6 @@ interface Project {
     id: number;
     title: string;
     description: string;
-    // Add other relevant fields like image, url, etc.
   }
 
 interface ProjectsProps {
